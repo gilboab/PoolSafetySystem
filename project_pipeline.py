@@ -96,8 +96,8 @@ def load_image_into_numpy_array(image):
 
 # # Detection
 
-#PATH_TO_TEST_IMAGES_DIR = 'C:\\CV\\tmp\\models\\research\\object_detection\\Pool_Images'
-PATH_TO_TEST_IMAGES_DIR = 'C:\\CV\\tmp\\models\\research\\object_detection\\My_Pool'
+#PATH_TO_TEST_IMAGES_DIR = 'C:\\CV\\ProjectDirectory\\models\\research\\object_detection\\Pool_Images'
+PATH_TO_TEST_IMAGES_DIR = 'C:\\CV\\ProjectDirectory\\models\\research\\object_detection\\My_Pool'
 TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, 'img1.jpg') ]
 #TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, 'pool{}.jpg'.format(i)) for i in range(22, 23) ]
 # Size, in inches, of the output images.
